@@ -1,8 +1,49 @@
 .body {
-    align-content:center;
-    background-color: goldenrod;
+    /* margin: auto; */
+}
+*{
+    background-color: rgb(0, 0, 0);
+    outline: ;
+    /*
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; */
+    text-decoration: none;
+}
+.logo{
+}
+.body-bg{
+}
+.menu-container{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+}
+.menu{ 
+    /* margin: auto; */
+    font-size: small;
+    border: 1px solid blueviolet;
+    color: rgb(248, 244, 229);
+    a {color: #fde6af};
+}
+.flex-container{
+    display: flex;
 }
 
-.menu{
-    color: blueviolet;
+.flex-container div{
+    /* background: peachpuff; */
+    border: 2px solid white;
+    max-height: 1000px;
+    padding:
+    flex: 1; 
+    margin: auto;
+}
+
+.video{
+    position: absolute;
+    margin: auto;
+    
 }
